@@ -1,0 +1,26 @@
+{
+    "name": "lang-glsl-improved",
+    "displayName": "glsl-improved",
+    "description": "GLSL Improved",
+    "version": "0.0.1",
+    "publisher": "Delio",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "glsl",
+            "aliases": ["GLSL", "glsl"],
+            "extensions": [".vs",".fs",".gs",".vsh",".fsh",".gsh",".vshader",".fshader",".gshader",".vert",".frag",".geom",".tesc",".tese",".comp",".glsl",".f.glsl",".v.glsl",".g.glsl"],
+            "configuration": "./glsl.configuration.json"
+        }],
+        "grammars": [{
+            "language": "glsl",
+            "scopeName": "source.glsl",
+            "path": "./syntaxes/glsl.tmLanguage"
+        }]
+    }
+}

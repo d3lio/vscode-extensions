@@ -1,0 +1,26 @@
+{
+    "name": "lang-rust-improved",
+    "displayName": "rust-improved",
+    "description": "Rust Improved",
+    "version": "0.0.1",
+    "publisher": "Delio",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "rust",
+            "aliases": ["Rust", "rust"],
+            "extensions": [".rs"],
+            "configuration": "./rust.configuration.json"
+        }],
+        "grammars": [{
+            "language": "rust",
+            "scopeName": "source.rust",
+            "path": "./syntaxes/rust.tmLanguage"
+        }]
+    }
+}

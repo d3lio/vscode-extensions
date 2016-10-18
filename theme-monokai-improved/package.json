@@ -1,0 +1,22 @@
+{
+    "name": "theme-monokai-improved",
+    "displayName": "monokai-improved",
+    "description": "monokai improved",
+    "version": "0.0.1",
+    "publisher": "Delio",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Monokai Improved",
+                "uiTheme": "vs-dark",
+                "path": "./themes/monokai_improved.tmTheme"
+            }
+        ]
+    }
+}
