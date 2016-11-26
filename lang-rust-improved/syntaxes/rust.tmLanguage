@@ -250,7 +250,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b[a-z_][a-z0-9_]*(?=\()</string>
+			<string>\b[a-z_][a-z0-9_]*(?=\(|::<)</string>
 			<key>name</key>
 			<string>support.function.source.rust</string>
 		</dict>
