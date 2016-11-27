@@ -256,7 +256,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b[a-z_][a-z0-9_]*!(?=\(|\[|\{)</string>
+			<string>\b[a-z_][a-z0-9_]*!(?=\(|\[|\s*\{)</string>
 			<key>name</key>
 			<string>support.macro.source.rust</string>
 		</dict>
