@@ -610,6 +610,18 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Operator rust</string>
+			<key>scope</key>
+			<string>keyword.operator.source.rust</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#676867</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
 			<string>TODO</string>
 			<key>scope</key>
 			<string>todo</string>

@@ -129,7 +129,7 @@
 			<key>match</key>
 			<string>\b(as|in|box)\b</string>
 			<key>name</key>
-			<string>keyword.operator.source.rust</string>
+			<string>keyword.other.source.rust</string>
 		</dict>
 		<dict>
 			<key>match</key>
