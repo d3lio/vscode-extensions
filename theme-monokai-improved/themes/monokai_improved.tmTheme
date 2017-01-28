@@ -225,17 +225,6 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>entity.arrow.function.js</string>
-			<key>scope</key>
-			<string>entity.arrow.function.js</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#AA00FF</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>support.class.error.js</string>
 			<key>scope</key>
 			<string>support.class.error.js</string>
